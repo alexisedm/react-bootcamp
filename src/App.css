@@ -2,6 +2,23 @@
   text-align: center;
 }
 
+
+.border {
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 10px;
+}
+main > h1 {
+  text-align: center;
+}
+
+.callout{
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 20px;
+  background-color: #C0FFFE;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -30,9 +47,9 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: linear(0);
   }
   to {
-    transform: rotate(360deg);
+    transform: linear(120);
   }
 }
