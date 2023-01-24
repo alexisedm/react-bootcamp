@@ -7,6 +7,7 @@ export function withPointlessHOC(component){
     return function(props){
         return(
             <Component favortieNumber={22} {...props} />
+            
         )
 
     }

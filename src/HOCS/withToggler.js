@@ -8,6 +8,7 @@ class Toggler extends Component {
   state = {
     on: this.props.defaultOnValue,
   };
+  
   toggle = () => {
     this.setState((prevState) => {
       return {

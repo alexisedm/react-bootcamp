@@ -9,8 +9,8 @@ import './App.css';
 
 // A function that takes a component as its first argument and returns a new component that wraps the given component, 
 //providing extra capabilities to it.
-import Menu from "./HOCS/Menu"
-import Favorite from "./HOCS/Favorite"
+import Menu from "./hocs/Menu"
+import Favorite from "./hocs/Favorite"
 
 function App() {
     return (
@@ -54,7 +54,7 @@ export default App
 //import Callout from "./Callout";
 //import   Card  from "./Card";
 
-//import {withPointlessHOC} from "./HOCS/withPointlessHOC"
+//import {withPointlessHOC} from "./hocs/withPointlessHOC"
 //import {withExtraPropAdded} from "./withExtraPropAdded"
 /*
 function App(props) {
